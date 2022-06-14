@@ -1,0 +1,15 @@
+.w a:nth-child(n) {
+    border-right: red solid 2px;
+    margin-right: 3px;
+    padding-right: 3px; 
+    
+}
+li{
+    display: inline;
+}
+.a a::after{
+    content:"|";
+    color:red;
+    
+    
+}
