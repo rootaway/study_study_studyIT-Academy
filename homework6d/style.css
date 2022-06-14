@@ -1,0 +1,28 @@
+ p  {
+       display: inline-block;
+      
+    background-image: url('/star/star0.png');
+    background-repeat: no-repeat;
+
+    height: 5em;
+    width: 5em;
+    margin: 1em;
+    
+}
+
+P:hover,
+p:hover ~p {
+    background-image: url('/star/star1.png'); 
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;  
+    justify-content: left;
+    /* свойствво Disply: flex и row-reverse позволяют нам использовать тильду в обратном порядке, т.е
+    "закрашивать" звезды слева направо */
+}
+
+
+
+
