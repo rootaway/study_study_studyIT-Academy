@@ -1,0 +1,3 @@
+.zn::before {
+    content: url(/extref.png);
+}
